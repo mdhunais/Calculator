@@ -14,8 +14,19 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: relative;
+    width: 260px;
 }
 
+/* Model Number (Top) */
+.model-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Display */
 #display {
     width: 100%;
     height: 50px;
@@ -59,4 +70,12 @@ button:nth-child(4), button:nth-child(16) {
 
 button:nth-child(4):hover, button:nth-child(16):hover {
     background: #ff4c4c;
+}
+
+/* Brand Name (Bottom) */
+.brand-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
 }
